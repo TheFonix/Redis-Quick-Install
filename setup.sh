@@ -1,5 +1,4 @@
 #Redis Download link address:
-REDISLINK="http://download.redis.io/redis-stable.tar.gz"
 
 echo "Redis Installer - Fonix - 2017"
 echo ""
@@ -37,7 +36,7 @@ cd /tmp
 
 echo "Download the latest Redis file"
 sleep 2
-curl -O $REDISLINK
+curl -O http://download.redis.io/redis-stable.tar.gz
 
 echo "Unzipping the archive"
 sleep 1
