@@ -81,3 +81,8 @@ sleep 1
 
 echo "Hopefully that worked! Here is the current status of the redis server!"
 sudo systemctl status redis
+
+echo "----------------------------------------------------"
+echo " Please note this is an unsecured version of Redis!
+echo "----------------------------------------------------"
+sleep 3
