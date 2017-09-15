@@ -1,4 +1,6 @@
-#Redis Download link address:
+#Created By Fonix Hardcastle -
+#https://fonix.online -
+#Quick Redis Installer -
 
 echo "Redis Installer - Fonix - 2017"
 echo ""
@@ -53,24 +55,24 @@ echo "Creating the Redis info directories"
 sleep 1
 sudo mkdir /etc/redis
 
-echo "Copy exmaple files to the correct location!"
+echo "Copying exmaple files to the correct location!"
 sudo cp /tmp/redis-stable/redis.conf /etc/redis
 sleep 1
 
-echo "Go to the system service directory! and place the default config in there"
+echo "Going to the system service directory! and placing the default config in there"
 mkdir -p /etc/systemd/system/
 cd /etc/systemd/system/
 wget https://fonix.online/repo/redis.service
 
-echo "Create the system users"
+echo "Creating the system users"
 sudo adduser --system --group --no-create-home redis
 sleep 1
 
-echo "Make the Redis library file"
+echo "Making the Redis library file"
 sudo mkdir /var/lib/redis
 sleep 1
 
-echo "Set default permissions"
+echo "Setting default permissions"
 sudo chown redis:redis /var/lib/redis
 sudo chmod 770 /var/lib/redis
 sleep
