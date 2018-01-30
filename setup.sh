@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Created By Fonix Hardcastle -
 #https://fonix.online -
 #Quick Redis Installer -
