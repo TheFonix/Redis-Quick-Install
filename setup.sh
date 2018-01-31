@@ -1,9 +1,5 @@
 #!/bin/bash
 
-#Created By Fonix Hardcastle -
-#https://fonix.online -
-#Quick Redis Installer -
-
 echo "Redis Installer - Fonix - 2017"
 echo ""
 echo "-------------------------------------------------"
